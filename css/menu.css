@@ -1,0 +1,101 @@
+html body ul.menu ul, html body ul.menu ul li {
+	height:20px; 
+}
+
+html body ul.menu ul ul {
+  margin: 0 0 0 180px;
+}
+ul.menu, ul.menu * {
+  margin: 0;
+  padding: 0;
+}
+
+ul.menu {
+  display: block;
+  position: relative;
+}
+
+ul.menu li {
+  display: block;
+  list-style: none;
+  float: left;
+  position: relative;
+}
+
+ul.menu li:hover {
+  visibility: inherit; /* fixes IE7 'sticky bug' */
+}
+
+ul.menu a {
+  display: block;
+  position: relative;
+}
+
+ul.menu ul {
+  position: absolute;
+  left: 0;
+  width: 150px; 
+  top: auto;
+  left: -999999px;
+}
+
+ul.menu ul a {
+  zoom: 1; /* IE6/7 fix */
+}
+
+ul.menu ul li {
+  float: left; /* Must always be floated otherwise there will be a rogue 1px margin-bottom in IE6/7 */
+  width: 150px;
+}
+
+ul.menu ul ul {
+  top: 0;
+  margin: 0 0 0 150px
+}
+
+ul.menu li:hover ul,ul.menu li:focus ul,ul.menu li.hover ul,
+ul.menu ul li:hover ul,ul.menu ul li:focus ul,ul.menu ul li.hover ul,
+ul.menu ul ul li:hover ul,ul.menu ul ul li:focus ul,ul.menu ul ul li.hover ul,
+ul.menu ul ul ul li:hover ul,ul.menu ul ul ul li:focus ul,ul.menu ul ul ul li.hover ul {
+  left: auto;
+}
+
+ul.menu li:hover ul ul,ul.menu li:focus ul ul,ul.menu li.hover ul ul,
+ul.menu ul li:hover ul ul,ul.menu ul li:focus ul ul,ul.menu ul li.hover ul ul,
+ul.menu ul ul li:hover ul ul,ul.menu ul ul li:focus ul ul,ul.menu ul ul li.hover ul ul,
+ul.menu ul ul ul li:hover ul ul,ul.menu ul ul ul li:focus ul ul,ul.menu ul ul ul li.hover ul ul {
+  left: -999999px;
+}
+
+/* Theming the menu */
+ul#nav {
+  float: left;
+}
+
+ul#nav li.current a {
+  color: #eee;}
+
+ul#nav ul {
+  background: #99CCFF;
+}
+
+ul#nav li a {
+  padding: 7px 20px;
+  font-family: helvetica;
+  text-decoration: none;
+  color: #111;
+  background: #99CCFF;
+  margin-right: 2px;
+  border-radius: 7px 7px 0 0;
+  -moz-border-radius: 7px 7px 0 0;
+  -webkit-border: 7px 7px 0 0;}
+
+ul#nav li a:hover, ul#nav li a:focus {
+  color: #FFF;
+}
+ul#nav li ul li a {
+  margin-right: 0;
+  border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  -webkit-border: 0 0 0 0;
+}
