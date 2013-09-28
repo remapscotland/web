@@ -65,6 +65,7 @@ $ git clone https://github.com/remapscotland/web.git
 
 ### Authors and Contributors
 Magdalen Berns @thisMagpie a GitHub 
+Rory Davis @ get on github.
 You
 
 ### To get involved in the web Project
