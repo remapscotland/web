@@ -1,18 +1,19 @@
 html body ul.menu ul, html body ul.menu ul li {
-	height:20px; 
+
 }
 
 html body ul.menu ul ul {
-  margin: 0 0 0 180px;
+  margin: 0 0 0 10px;
 }
 ul.menu, ul.menu * {
   margin: 0;
   padding: 0;
+  float:left;
 }
 
 ul.menu {
   display: block;
-  position: relative;
+  float: left;
 }
 
 ul.menu li {
@@ -28,7 +29,7 @@ ul.menu li:hover {
 
 ul.menu a {
   display: block;
-  position: relative;
+  position: left;
 }
 
 ul.menu ul {
@@ -50,7 +51,7 @@ ul.menu ul li {
 
 ul.menu ul ul {
   top: 0;
-  margin: 0 0 0 150px
+  margin: 0 0 0 0;
 }
 
 ul.menu li:hover ul,ul.menu li:focus ul,ul.menu li.hover ul,
@@ -69,18 +70,21 @@ ul.menu ul ul ul li:hover ul ul,ul.menu ul ul ul li:focus ul ul,ul.menu ul ul ul
 
 /* Theming the menu */
 ul#nav {
-  float: left;
-}
-
-ul#nav li.current a {
-  color: #eee;}
-
-ul#nav ul {
+  padding: 0px 0px;
   background: #99CCFF;
 }
 
+ul#nav li.current a {
+  color: #eee;
+}
+
+ul#nav ul {
+  background: #99CCFF;
+  float: left;
+}
+
 ul#nav li a {
-  padding: 7px 20px;
+  padding: 1px 10px;
   font-family: helvetica;
   text-decoration: none;
   color: #111;
@@ -88,7 +92,8 @@ ul#nav li a {
   margin-right: 2px;
   border-radius: 7px 7px 0 0;
   -moz-border-radius: 7px 7px 0 0;
-  -webkit-border: 7px 7px 0 0;}
+  -webkit-border: 7px 7px 0 0;
+}
 
 ul#nav li a:hover, ul#nav li a:focus {
   color: #FFF;
