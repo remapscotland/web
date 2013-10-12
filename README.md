@@ -45,7 +45,7 @@ $ git clone https://github.com/remapscotland/web.git
 
 ### Current Status
 
-[current look](https://docs.google.com/file/d/0B1Y99_304RetRGFUZjNBLWdpNUk/edit?usp=sharing)[5]
+[current look](http://remapscotland.org.uk)[5]
 
 ### Next Steps
 
