@@ -1,14 +1,10 @@
-html body ul.menu ul, html body ul.menu ul li {
-
-}
-
-html body ul.menu ul ul {
-  margin: 0 0 0 10px;
-}
 ul.menu, ul.menu * {
-  margin: 0;
-  padding: 0;
+  margin: 5px;
+  padding: 0px;
   float:left;
+  border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border: 7px 7px 7px 7px;
 }
 
 ul.menu {
@@ -35,7 +31,7 @@ ul.menu a {
 ul.menu ul {
   position: absolute;
   left: 0;
-  width: 150px; 
+  width: 120px; 
   top: auto;
   left: -999999px;
 }
@@ -46,7 +42,7 @@ ul.menu ul a {
 
 ul.menu ul li {
   float: left; /* Must always be floated otherwise there will be a rogue 1px margin-bottom in IE6/7 */
-  width: 150px;
+  width: 120px;
 }
 
 ul.menu ul ul {
@@ -61,21 +57,15 @@ ul.menu ul ul ul li:hover ul,ul.menu ul ul ul li:focus ul,ul.menu ul ul ul li.ho
   left: auto;
 }
 
-ul.menu li:hover ul ul,ul.menu li:focus ul ul,ul.menu li.hover ul ul,
-ul.menu ul li:hover ul ul,ul.menu ul li:focus ul ul,ul.menu ul li.hover ul ul,
-ul.menu ul ul li:hover ul ul,ul.menu ul ul li:focus ul ul,ul.menu ul ul li.hover ul ul,
-ul.menu ul ul ul li:hover ul ul,ul.menu ul ul ul li:focus ul ul,ul.menu ul ul ul li.hover ul ul {
-  left: -999999px;
-}
-
 /* Theming the menu */
 ul#nav {
   padding: 0px 0px;
-  background: #99CCFF;
+  background: transparent;
 }
 
 ul#nav li.current a {
   color: #eee;
+  background: transparent;
 }
 
 ul#nav ul {
@@ -84,14 +74,14 @@ ul#nav ul {
 }
 
 ul#nav li a {
-  padding: 1px 10px;
+  padding: 2px 10px;
   font-family: helvetica;
   text-decoration: none;
   color: #111;
-  background: #99CCFF;
-  margin-right: 2px;
+  background: #99CCFF;;
+  margin-right: 1px;
   border-radius: 7px 7px 0 0;
-  -moz-border-radius: 7px 7px 0 0;
+  -moz-border-radius: 7px 7px 7px 0;
   -webkit-border: 7px 7px 0 0;
 }
 
@@ -99,8 +89,8 @@ ul#nav li a:hover, ul#nav li a:focus {
   color: #FFF;
 }
 ul#nav li ul li a {
-  margin-right: 0;
-  border-radius: 0 0 0 0;
+  margin-right: 3px;
+  border-radius: 5px 5px 0 0;
   -moz-border-radius: 0 0 0 0;
   -webkit-border: 0 0 0 0;
 }
