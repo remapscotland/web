@@ -1,10 +1,10 @@
 ul.menu, ul.menu * {
-  margin: 5px;
+  margin: 0px;
   padding: 0px;
   float:left;
-  border-radius: 7px 7px 7px 7px;
-  -moz-border-radius: 7px 7px 7px 7px;
-  -webkit-border: 7px 7px 7px 7px;
+  border-radius:0 0 7px 7px;
+  -moz-border-radius: 0 0 7px 7px;
+  -webkit-border: 0 0 7px 7px;
 }
 
 ul.menu {
@@ -31,9 +31,7 @@ ul.menu a {
 ul.menu ul {
   position: absolute;
   left: 0;
-  width: 120px; 
   top: auto;
-  left: -999999px;
 }
 
 ul.menu ul a {
@@ -41,8 +39,7 @@ ul.menu ul a {
 }
 
 ul.menu ul li {
-  float: left; /* Must always be floated otherwise there will be a rogue 1px margin-bottom in IE6/7 */
-  width: 120px;
+  float: left; /* IE6/7 fix */
 }
 
 ul.menu ul ul {
@@ -57,7 +54,6 @@ ul.menu ul ul ul li:hover ul,ul.menu ul ul ul li:focus ul,ul.menu ul ul ul li.ho
   left: auto;
 }
 
-/* Theming the menu */
 ul#nav {
   padding: 0px 0px;
   background: transparent;
@@ -74,23 +70,23 @@ ul#nav ul {
 }
 
 ul#nav li a {
-  padding: 2px 10px;
+  padding: 0px 10px;
   font-family: helvetica;
   text-decoration: none;
   color: #111;
-  background: #99CCFF;;
-  margin-right: 1px;
-  border-radius: 7px 7px 0 0;
-  -moz-border-radius: 7px 7px 7px 0;
-  -webkit-border: 7px 7px 0 0;
+  background: #99CCFF;
+  margin-right: 0px;
+  border-radius: 0 0 7px 7px;
+  -moz-border-radius: 0 0 7px 7px ;
+  -webkit-border: 0 0 7px 7px;
 }
 
 ul#nav li a:hover, ul#nav li a:focus {
   color: #FFF;
 }
 ul#nav li ul li a {
-  margin-right: 3px;
-  border-radius: 5px 5px 0 0;
+  margin-right: 0px;
+  border-radius: 0px 0px 0 0;
   -moz-border-radius: 0 0 0 0;
   -webkit-border: 0 0 0 0;
 }

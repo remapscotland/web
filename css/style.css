@@ -1,27 +1,29 @@
-body{
-  background:#f0f0f0;
-}
-
-html{
-  color: #222;
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+  background:ffcc00;
 }
 .html {
     line-height: 0.0;
+}
+body{
+  background:#f0f0f0;
 }
 
 h1{
   color: #222;
   letter-spacing: 1em;
   font: normal 30px arial;
-  margin: 30px 10px 29px 220px;
-  padding: 15px 10px 25px 140px;
+  margin: 0px 0px 30px 230px;
+  padding: 15px 10px 30px 140px;
   text-shadow: 1px 1px 1px 2px;
   float:left;
 }
 
 h2 {
   font-size: 20px;
-  padding: 9px 0 5px 0;
+  padding: 5px 0 5px 0;
   color: #AEB002;
   text-align:right;
   font-family: arial;
@@ -31,22 +33,23 @@ h2 {
 h3, {
   color: #222;
   letter-spacing: 0em;
-  padding: 0 0 34px 0;
+  padding: 0 0 0px 0;
   font: normal 12px arial;
   margin: 0 0 0px 0;
-  padding: 15px 0 5px 0;
+  padding: 5px 0 5px 0;
   color: #eee;
-  text-shadow: 1px 1px 1px #000;
+  text-shadow: 1px 1px 1px #eee;
 }
 
 a, a:hover {
   outline: none;
   text-decoration: underline;
-  color: #03D1FD;
+  color: #aaa;
 }
 
 a:hover {
   text-decoration: none;
+  color: #000;
 }
 
 ul { 
@@ -60,8 +63,8 @@ ul {
   color:#444;
   width:100%;
   height:100%;
-  padding:0px;
-  border:1px solid #ddd;
+  padding:10px;
+  border:0px solid #ddd;
   background:#f6f6f6;
 }
 
@@ -83,10 +86,10 @@ h1, nav{
   background: -ms-linear-gradient(45deg,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 31%,rgba(6,109,171,1) 31%); /* IE10+ */
   background: linear-gradient(45deg,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 31%,rgba(6,109,171,1) 31%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-  border-radius: 7px 7px 7px 7px;
-  -moz-border-radius: 7px 7px 7px 7px;
-  -webkit-border: 7px 7px 7px 7px;
-  padding:-40px;
+  border-radius: 7px 7px 0px 0px;
+  -moz-border-radius: 7px 7px 0px 0px;
+  -webkit-border: 7px 7px 0px 0px;
+  padding:-30px;
 }
 
 #logo #logobanner { 
@@ -97,7 +100,7 @@ h1, nav{
 #logo h1, {
   font-size: 70px;
   text-align:left;
-  border-bottom: 1px;
+  border-bottom: 0px;
   font-family: arial;
   text-transform: none;
   margin: 0 0 0px 0px;
@@ -108,7 +111,7 @@ h1, nav{
 }
 
 #logobanner h1, #logobanner h1 a, #logobanner h1 a:hover { 
-  color: #FFF;
+  color: #000;
   text-decoration: none;
   text-align: right;
 }
@@ -119,16 +122,17 @@ h1, nav{
 
 #logobanner h2 { 
   font-size: 100%;
-  padding: 0 20px 0 0;
+  padding: 10px 10px 0 0;
   color: #99ccff;
 }
 
-content { 
-  margin: 0px auto 0 auto;
+#content { 
+  margin: 20% auto 20% auto;
   padding: 0 0 0px 0;
 }
 .article{
   width:50%;
+  height:100%;
   margin-left:25%;
   margin-right:25%;
   margin-top:5%;
@@ -172,13 +176,17 @@ footer {
 }
 
 .footer a:hover {
-  color: #eee;
+  color: #fff;
   text-decoration: none;
 }
-
+.footer a, a:hover {
+  outline: none;
+  text-decoration: underline;
+  color: #000;
+}
 .separator {
-  border-top: 0px solid #99CCFF;
-  margin: 0 0 0 0;
+  border-top: 2px solid #99CCFF;
+  margin: 0 20px 0 0;
 }
 
 search {
@@ -188,7 +196,6 @@ search {
 .search {
   border: 1px solid #666;
   border-radius: 7px 7px 7px 7px;
-  -moz-border-radius: 7px 7px 7px 7px;
   -webkit-border: 7px 7px 7px 7px;  
   margin:1px 0px 0px;
   padding:10px;
