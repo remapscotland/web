@@ -1,3 +1,5 @@
+<!DOCTYPE HTML>
+<html lang="en">
 <!--
     Copyright (C) 2013 REMAP Scotland
 
@@ -17,10 +19,8 @@
 Author:
         Magdalen Berns thismagpie@live.com
 -->
-<!DOCTYPE HTML>
-<html lang="en">
   <head>
-    <meta charset="charset=UTF-8" http-equiv="X-UA-Compatible" content="IE=edge,chrome=1,text/html">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="We are a Scottish charity offering a dedicated
                 service to most of Scotland through our 14 area panels." />
@@ -30,16 +30,12 @@ Author:
     <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
   <body>
-    <div id="logo">
-      <header>
-        <form method=get action="javascript:void(0)" onsubmit="search(this); return false;">
-          <tr>
-            <td>
-              <input type=text name=searchedText value="" alt="search">
-              <input type=submit value="Search">
-            </td>
-          </tr>
-        </form>
+    <header>
+      <form method=get action="javascript:void(0)" onsubmit="search(this); return false;">
+        <input type=text name=searchedText value="">
+        <input type=submit value="Search">
+      </form>
+      <div id="logo">
         <div id="logobanner">
           <h1>
             <a href="index.html">
@@ -53,7 +49,7 @@ Author:
             Technical Aids For People With Disabilities
           </h2>
         </div>
-        </div>
+      </div>
         <ul class="menu" id="nav">
           <li><a href="latest.html">Latest</a></li>
           <li><a href="about.html">About</a></li>
@@ -62,6 +58,7 @@ Author:
           <li><a href="contact">Contact</a></li>
           <li><a href="donate.html">Donate</a></li>
           <li><a href="panelmap.html">Volunteer</a></li>
+        </ul>
     </header>
   </body>
 </html>
