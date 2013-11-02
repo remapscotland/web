@@ -43,6 +43,8 @@ $ git clone https://github.com/remapscotland/web.git
 
 ### Current Status
 
+Version 0.0.1
+
 [current look](http://remapscotland.org.uk)
 
 ### Next Steps
@@ -61,7 +63,7 @@ $ git clone https://github.com/remapscotland/web.git
 
 ### Authors and Contributors
 
-Magdalen Berns @thisMagpie on GitHub 
+Magdalen Berns @thisMagpie on GitHub
 
 You!
 
