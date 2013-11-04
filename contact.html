@@ -1,3 +1,4 @@
+<!DOCTYPE HTML>
 <!--
     Copyright (C) 2013 REMAP Scotland
 
@@ -17,98 +18,70 @@
 Author:
         Magdalen Berns thismagpie@live.com
 -->
-<!DOCTYPE HTML>
 <html lang="en">
   <head>
-    <meta charset="charset=UTF-8" http-equiv="X-UA-Compatible" content="IE=edge,chrome=1,text/html">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width">
-
     <meta name="description" content="We are a Scottish charity offering a dedicated
                 service to most of Scotland through our 14 area panels." />
     <meta name="keywords" content="technical aid, disability, remap, scotland. charity" />
-
     <title>REMAP Scotland</title>
-
-    <link rel="stylesheet" type="text/css" href="css/menu.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/menu.css" />
   </head>
   <body>
-    <header>
-      <div id="logo">
-        <div id="logobanner">
-          <h1>
-            <a href="index.html">
-              REMAP 
-              <span class="logocolour">
-                Scotland
-              </span>
-            </a>
-          </h1>
-          <h2>
-            Technical Aids For People With Disabilities
-          </h2>
-        </div>
-        <form method="post" action="#" id="search">
-          <input class="search" type="text" name="search_field" value="search..."
-            onclick="javascript:document.forms['search'].search_field.value=''" />
-          <input name="search" type="image" style="float: right;border: 0; margin: 20px 0 0 0;"
-                                            src="#" alt="search" title="search" />
-        </form>
+    <!-- TODO remove frameborder="0"-->
+    <iframe name="header" height="150" width="1000" src="header.html" frameborder="0" seamless>
+    Your browser does not support iframes.
+    </iframe>
+
       <ul class="menu" id="nav">
-        <li><a href="index.html">Latest</a></li>
+        <li><a href="latest.html">Latest</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="underconstruction.html">Case Studies</a></li>
         <li><a href="underconstruction.html">Member Area</a></li>
-        <li><a href="#">Get Involved</a>
-          <ul>
-            <a href="#">Get Involved</a>
-            <a href="donate.html">Donate</a>
-            <a href="panelmap.html">Volunteer</a>
-          </ul>
-        </li>
-        <li class="current"><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="donate.html">Donate</a></li>
+        <li><a href="panelmap.html">Volunteer</a></li>
       </ul>
-      <div class="sidebar">
-        <div class="widget">
-          <a href="https://facebook.com/remapscotland"><img src="images/facebook.png" alt="facebook"></a>
-          <a href="https://twitter.com/remapscotland"><img src="images/twitter.png" alt="twitter"></a>
-        </div>
-      </div>
-      </div>
-    </header>
       <div class="content">
         <div id="container">
           <div class="article">
-            <h3>Contact Your Local Panel Using the Panel Map</h3>
-            <p>
-              <b>
-                Clicking on a location will reveal the member's telephone number and email address.
-              </b>
+          <h3>Please select the panel you wish to contact</h3>
+          <form class="form" role="form">
+              <div class="form-group">
+                <label for="inputEmail" class="col-lg-4 control-label">Email</label>
+                <div class="col-lg-10">
+                  <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+              </div>
+                <!-- Radio buttons --> 
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsLothian" value="Lothian">
+                  Lothian
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsOther" value="other">
+                  Other
+                </label>
+              </div>
               <br/>
-              <br/>
-              If you are having trouble with this map. Try viewing on
-              <a href="https://maps.google.com/maps/ms?hl=en&ie=UTF8&msa=0&msid=111055985929872203010.0004670ed23d54d88b0b1&ll=56.872996,-3.80127&spn=3.933339,9.437256&source=embed">
-                google maps</a>.
-            </p>
-              <iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?hl=en&amp;ie=UTF8&amp;msa=0&amp;msid=200793566584453292969.0004670ed23d54d88b0b1&amp;source=embed&amp;t=m&amp;ll=56.872996,-3.80127&amp;spn=5.7671,14.0625&amp;z=6&amp;output=embed">
-            </iframe>
+              <div class="message">
+                 <label for="form-control" class="col-lg-4 control-label">Message
+                 </label>
+              </div>
+              <textarea class="form-control">This contact form is not ready yet.</textarea>
+                <div class="col-lg-offset-4 col-lg-10">
+                <!--does nothing yet -->
+                  <button type="submit" class="btn btn-default">Send</button>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
-      </div>
-    <footer>
-      <p>
-        <a href="index.html">Home</a> |
-        <a href="index.html">The Team</a> |
-        <a href="donate.html">Fundraising</a> |
-        <a href="panelmap.html">Panel Map</a> |
-        <a href="underconstruction.html">Contact Us</a>
-      </p>
-      <p>
-        Unless otherwise stated all content is copyright &copy; REMAP Scotland
-      </p>
-      <p>
-        <a href="http://www.remapscotland.org.uk">Scottish Charity No. SC009141</a>
-      </p>
-    </footer>
+    <iframe width="100%" height="10%" frameborder="0" src="footer.html"></iframe>
   </body>
 </html>
