@@ -1,3 +1,4 @@
+<!DOCTYPE HTML>
 <!--
     Copyright (C) 2013 REMAP Scotland
 
@@ -17,12 +18,32 @@
 Author:
         Magdalen Berns thismagpie@live.com
 -->
-<!DOCTYPE HTML>
 <html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="We are a Scottish charity offering a dedicated
+                service to most of Scotland through our 14 area panels." />
+    <meta name="keywords" content="technical aid, disability, remap, scotland. charity" />
+    <title>REMAP Scotland</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/menu.css" />
+  </head>
   <body>
-    <iframe width="100%" height="10%" frameborder="0" src="pages/header.html"></iframe>
+    <!-- TODO remove frameborder="0"-->
+    <iframe name="header" height="150" width="1500" src="header.html" frameborder="0" seamless>Your browser does not support iframes.</iframe>
+      <ul class="menu" id="nav">
+        <li><a href="latest.html">Latest</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="underconstruction.html">Case Studies</a></li>
+        <li><a href="underconstruction.html">Member Area</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="donate.html">Donate</a></li>
+        <li><a href="panelmap.html">Volunteer</a></li>
+      </ul>
       <div class="content">
-        <div class="article">
+        <div id="container">
+          <div class="article">
           <h3>Donate</h3>
           <p>
             <b>By Post</b>
@@ -34,7 +55,7 @@ Author:
             <br/>
             For information on how to donate by standing order please contact the National Organiser, 
             David Reid, at
-            <script language='javascript' type='text/javascript'>
+            <script>
               (function email(){
                  var one = "remap";
                  var three ="-";
@@ -52,7 +73,7 @@ Author:
             For information on how to make a donation from your pre-tax pay
             (this reduces your tax liability, the money comes to us and not
             the tax collectors, and your donation will be worth at least 28% more)
-            please contact remap-scotland<img src="images/at.png" alt="@"></a>
+            please contact remap-scotland<img src="images/at.png" alt="@">
             btconnect.com
             <br/>
             <br/>
@@ -65,6 +86,7 @@ Author:
           </p>
         </div>
       </div>
-    <iframe width="100%" height="10%" frameborder="0" src="pages/footer.html"></iframe>
+    </div>
+    <iframe height="150" width="1500" frameborder="0" src="footer.html"></iframe>
   </body>
 </html>
