@@ -188,18 +188,3 @@ footer {
   border-top: 2px solid #99CCFF;
   margin: 0 20px 0 0;
 }
-
-search {
-  float: right;
-}
-
-.search {
-  border: 1px solid #666;
-  border-radius: 7px 7px 7px 7px;
-  -webkit-border: 7px 7px 7px 7px;  
-  margin:1px 0px 0px;
-  padding:10px;
-  padding-right:10px;
-  vertical-align:middle;
-  background:#eee;
-}
