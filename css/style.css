@@ -1,34 +1,85 @@
-html {
-  font-size: 100%;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-
-}
-.html {
-  line-height: 0.0;
-  background:#ffcc00;
-}
-
-body{
+html:.body{
   background: rgb(6, 109, 171);
 }
 
-h1{
-  color: #222;
-  letter-spacing: 0.2em;
-  font: normal 30px arial;
-  padding: 35px 383px 0 0;
-  text-shadow: 2px 1px 1px 2px;
+.content{
+  font-family:Calibri, Helvetica, serif;
+  color:#444;
+  width:100%;
+  padding:10px;
+  border:0px solid #222;
+  background:#f6f6f6;
+}
+
+#container{
+  color: #444;
+  width:100%;
+  height:100%;
+  padding:10px 10px 10px 10px;
+  border:0px solid #f6f6f6;
+  background:#f6f6f6;
+}
+
+.article{
+  height:100%;
+  margin-left:25%;
+  margin-right:25%;
+  margin-top:5%;
+  margin-bottom:5%;
+  text-align:left;
+  font-family:arial;
+}
+
+header{
+  border:0px;
+  padding:20px 75px 0px 10px;
+  margin:0px 0px 0px 0px;
+  background:#99bbFF;
+}
+
+#logo{
+  font-size: 32px;
+  border-bottom: 0px;
+  text-shadow: #000;
+}
+
+#logobanner h1, .logoremap{
+  color:#003DAB;
+  font-family:arial;
+  padding: 0px 0px 0 0;
+  text-align:left;
+  border-color:#000000;
+  border-radius: 7px 7px 0px 0px;
+  -moz-border-radius: 7px 7px 0px 0px;
+  -webkit-border: 7px 7px 0px 0px;
+}
+
+#logobanner h2, .logoscotland {
+  padding: 10px 20px 0 0;
+  color: #000;
+  font-family:arial;
+}
+#logo h2 { 
+  margin-right:30px;
+  margin-top: 30px;
+  
+  font-size:40px;
+}
+
+h1, nav{
+  text-align:left;
+  margin:0 0 0px;
   float:left;
+  height:0px;
 }
 
 h2 {
   font-size: 24px;
-  padding: 5px 0 5px 0;
-  color: #AEB002;
-  text-align:right;
+  padding: 0px 20px 5px 0;
+  margin: 10px 240px 20px;
+  color: #222;
+  text-align:left;
   font-family: arial;
-  padding-right:20px;
 }
 
 h3, {
@@ -38,14 +89,14 @@ h3, {
   font: normal 12px serif;
   margin: 0 0 0px 0;
   padding: 5px 0 5px 0;
-  color: #eee;
+  color: #444;
   text-shadow: 1px 1px 1px #eee;
 }
 
 a, a:hover {
   outline: none;
   text-decoration: underline;
-  color: #aaa;
+  color: #444;
 }
 
 a:hover {
@@ -58,117 +109,8 @@ ul {
   float:left;
 }
 
-header{
-  width:800px;
-  height:110px;
-  scrolling:"0";
-
-  border:"0";
-}
-.header{
-  border:"0";
-  float:center;
-  frameborder:"0";
-}
-
-#container{
-  font-family:Calibri, Helvetica, serif;
-  color:#444;
-  width:100%;
-  height:100%;
-  padding:10px;
-  border:0px solid #f6f6f6;
-  background:#f6f6f6;
-}
-
-h1, nav{
-  text-align:center;
-  margin:0 0 0px;
-  float:left;
-  height:78;
-}
-
-#logo {
-  text-align: right;
-  height:112px;
-  background: rgb(197,222,234); /* Old browsers */
-  background: -moz-linear-gradient(45deg,  rgba(197,222,234,1) 0%, rgba(138,187,215,1) 31%, rgba(6,109,171,1) 31%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(197,222,234,1)), color-stop(31%,rgba(138,187,215,1)), color-stop(31%,rgba(6,109,171,1))); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(45deg,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 31%,rgba(6,109,171,1) 31%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(45deg,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 31%,rgba(6,109,171,1) 31%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(45deg,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 31%,rgba(6,109,171,1) 31%); /* IE10+ */
-  background: linear-gradient(45deg,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 31%,rgba(6,109,171,1) 31%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-  border-radius: 7px 7px 0px 0px;
-  -moz-border-radius: 7px 7px 0px 0px;
-  -webkit-border: 7px 7px 0px 0px;
-  padding:-30px;
-}
-
-#logo #logobanner { 
-  font-family:arial;
-  font-size:12px;
-}
-
-#logo h1, {
-  font-size: 70px;
-  text-align:left;
-  border-bottom: 0px;
-  font-family: arial;
-  text-transform: none;
-  margin: 0 0 0px 0px;
-  text-shadow: #000;
-}
-#logo h2 { 
-  margin-right:0px;
-}
-
-#logobanner h1, #logobanner h1 a, #logobanner h1 a:hover {
-  color:#066dab;
-  text-decoration: none;
-  text-align: right;
-}
-
-#logobanner h1 a .logocolour { 
-  color: #99CCFF;
-  font-family:serif;
-}
-
-#logobanner h2 { 
-  font-size: 100%;
-  padding: 10px 10px 0 0;
-  color: #99ccff;
-}
-
-#content { 
-  margin: 20% auto 20% auto;
-  padding: 0 0 0px 0;
-}
-.article{
-  width:50%;
-  height:100%;
-  margin-left:25%;
-  margin-right:25%;
-  margin-top:5%;
-  margin-bottom:5%;
-  text-align:left;
-  font-family:arial;
-}
-
-sidebar {
-  border-radius: 7px 7px 7px 7px;
-  -moz-border-radius: 7px 7px 7px 7px;
-  -webkit-border: 7px 7px 7px 7px;
-  width:10%;
-}
-.widget{
-  background: transform;
-  float:right;
-}
-
 footer {
-  width: 100%;
-  border:"0";
+  width: 600px;
   font-family:arial,bold;
   font-size: 20px;
   text-align: center;
@@ -176,11 +118,11 @@ footer {
   border-radius: 7px 7px 0px 0px;
   -moz-border-radius: 7px 7px 0px 0px;
   -webkit-border: 7px 7px 0px 0px;
-  padding:-30px;
+  padding:30px;
   margin: 0 0 0 0;
 }
 
-.footer a { 
+.footer a {
   color: #000;
   text-decoration: none;
 }
@@ -195,6 +137,6 @@ footer {
   color: #000;
 }
 .separator {
-  border-top: 2px solid #99CCFF;
+  border-top: 2px solid #222;
   margin: 0 20px 0 0;
 }

@@ -65,7 +65,7 @@ ul#nav li.current a {
 }
 
 ul#nav ul {
-  background: #99CCFF;
+  background: #99bbFF;
   float: left;
 }
 
@@ -74,7 +74,7 @@ ul#nav li a {
   font-family: helvetica;
   text-decoration: none;
   color: #111;
-  background: #99CCFF;
+  background: #99bbFF;
   margin-right: 0px;
   border-radius: 0 0 7px 7px;
   -moz-border-radius: 0 0 7px 7px ;
