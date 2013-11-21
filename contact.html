@@ -28,10 +28,11 @@ Author:
     <title>REMAP Scotland</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/menu.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
   </head>
-  <body>
-    <header>
-      <iframe name="header" height="150" width="1500" src="header.html"  style="border: 0;" seamless>
+  <body class="container">
+      <header id="site-header">
+      <iframe  src="header.html"  style="border: 0; width:100%; height:100px;">
       Your browser does not support iframes
       </iframe>
     </header>
@@ -45,43 +46,40 @@ Author:
         <li><a href="panelmap.html">Volunteer</a></li>
       </ul>
       <div class="content">
-        <div id="container">
-          <div class="article">
-          <h3>Please select the panel you wish to contact</h3>
-          <form class="form" role="form">
-              <div class="form-group">
-                <label for="inputEmail" class="col-lg-4 control-label">Email</label>
-                <div class="col-lg-10">
-                  <input type="email" class="form-control" id="inputEmail" placeholder="Email">
-                </div>
-              </div>
-                <!-- Radio buttons --> 
-              <div class="radio">
-                <label>
-                  <input type="radio" name="optionsRadios" id="optionsLothian" value="Lothian">
-                  Lothian
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="optionsRadios" id="optionsOther" value="other">
-                  Other
-                </label>
-              </div>
-              <br/>
-              <div class="message">
-                 <label for="form-control" class="col-lg-4 control-label">Message
-                 </label>
-              </div>
-              <textarea class="form-control">This contact form is not ready yet.</textarea>
-                <div class="col-lg-offset-4 col-lg-10">
-                <!--does nothing yet -->
-                  <button type="submit" class="btn btn-default">Send</button>
-                </div>
-              </div>
-            </form>
+        <div class="article">
+        <h3>Please select the panel you wish to contact</h3>
+        <form class="form" role="form">
+          <div class="form-group">
+            <label for="inputEmail" class="col-lg-4 control-label">Email</label>
+            <div class="col-lg-10">
+              <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
           </div>
+            <!-- Radio buttons --> 
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios" id="optionsLothian" value="Lothian">
+              Lothian
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios" id="optionsOther" value="other">
+              Other
+            </label>
+          </div>
+          <br/>
+          <div class="message">
+             <label for="form-control" class="col-lg-4 control-label">Message
+             </label>
+          </div>
+          <textarea class="form-control">This contact form is not ready yet.</textarea>
+            <div class="col-lg-offset-4 col-lg-10">
+              <!--does nothing yet -->
+              <button type="submit" class="btn btn-default">Send</button>
+            </div>
+          </form>
         </div>
-    <iframe width="100%" height="10%" frameborder="0" src="footer.html"></iframe>
-  </body>
+        <iframe class="footer" id="separator" style="border:0; width:100%;" src="footer.html"/>
+     </body>
 </html>

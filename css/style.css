@@ -1,83 +1,103 @@
 html:.body{
   background: rgb(6, 109, 171);
+  width:100%;
+  height:100%;
+  margin: 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333333;
+  background-color: #aaa;
+  -webkit-box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.container{
+  padding-left:300px;
 }
 
 .content{
   font-family:Calibri, Helvetica, serif;
-  color:#444;
-  width:100%;
-  padding:10px;
+  background:f6f6f6;
+  width:850px;/*to get it out the way while not using*/
+  height:800px;
+  padding:0px;
+  margin-left:50px;
   border:0px solid #222;
-  background:#f6f6f6;
-}
-
-#container{
-  color: #444;
-  width:100%;
-  height:100%;
-  padding:10px 10px 10px 10px;
-  border:0px solid #f6f6f6;
-  background:#f6f6f6;
+  background:#f6fcff;
+  box-shadow: 0 1px 10px #a7a7a7, inset 0 1px 0 #fff
 }
 
 .article{
-  height:100%;
-  margin-left:25%;
-  margin-right:25%;
-  margin-top:5%;
-  margin-bottom:5%;
+  height:1000px;
+  width:800px;
+  margin-right:400px;
+  margin-top:0px;
+  padding-top:30px;
+  margin-bottom:5px;
+  padding: 50px 40px 30px 10px;
   text-align:left;
   font-family:arial;
+  box-shadow: 0 0px 10px #a7a7a7, inset 0 1px 3px #fff;
 }
 
-header{
-  border:0px;
-  padding:20px 75px 0px 10px;
-  margin:0px 0px 0px 0px;
-  background:#99bbFF;
+header, .site-header{
+  background: #99baFF;
+  width:1000px;
+  height:80px;
+  padding:7px 0px 7px 30px;
+  margin:50px 40px 0px -7px;
+  border-radius:6px 90px 30px 90px;
+  -moz-border-radius: 40px 0 0px 10px;
+  -webkit-border: 10px 10px 10px 0px;
+  box-shadow: 30px 20px 20px 0px #42647F, inset 8px 6px 25px 5px #42647F;
 }
 
-#logo{
-  font-size: 32px;
-  border-bottom: 0px;
-  text-shadow: #000;
+#logo, .site-header{
+  border-bottom: 4px;
+  margin: 9px 3px 3px 3px;
+  background:#42647F;
+  width:147px;
+  height:200px;
+  border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border: 7px 7px 7px 7px;
+  -webkit-box-shadow: inset 0 40px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: 30px 20px 20px 0px #42647F, inset 8px 6px 25px 5px #42647F;
+    border-radius:15px 80px 30px 10px;
 }
 
-#logobanner h1, .logoremap{
-  color:#003DAB;
-  font-family:arial;
-  padding: 0px 0px 0 0;
+#logobanner{
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color:#444;
+  text-shadow: #fff;
+  width:210px;
+  border-radius:15px 80px 30px 10px;
+  box-shadow: 0 3px 10px #fff, inset 0px 0px 10px #42647F
+}
+
+#logobanner h1:.logoremap{
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin:0px 0px 10px;
   text-align:left;
-  border-color:#000000;
-  border-radius: 7px 7px 0px 0px;
-  -moz-border-radius: 7px 7px 0px 0px;
-  -webkit-border: 7px 7px 0px 0px;
+  text-shadow: 10px 10px 10px #000, inset 10px 3px 0px #fff;
+  border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border: 7px 7px 7px 7px;
 }
-
-#logobanner h2, .logoscotland {
-  padding: 10px 20px 0 0;
-  color: #000;
-  font-family:arial;
-}
-#logo h2 { 
-  margin-right:30px;
-  margin-top: 30px;
-  
-  font-size:40px;
-}
-
-h1, nav{
+#logobanner h1: .nav{
   text-align:left;
-  margin:0 0 0px;
+  font-family:arial;
+  margin:4px 0px 0px;
   float:left;
-  height:0px;
+  height:20px;
 }
 
-h2 {
-  font-size: 24px;
-  padding: 0px 20px 5px 0;
-  margin: 10px 240px 20px;
-  color: #222;
+#logobanner h2:.logoscotland {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:32px;
+  padding: 0px 0px 0px 0;
+  margin: 0px 240px 20px;
   text-align:left;
   font-family: arial;
 }
@@ -85,8 +105,10 @@ h2 {
 h3, {
   color: #222;
   letter-spacing: 0em;
+  float:right;
   padding: 0 0 0px 0;
-  font: normal 12px serif;
+  font: normal 20px serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0 0 0px 0;
   padding: 5px 0 5px 0;
   color: #444;
@@ -95,7 +117,7 @@ h3, {
 
 a, a:hover {
   outline: none;
-  text-decoration: underline;
+  text-decoration: none;
   color: #444;
 }
 
@@ -109,34 +131,57 @@ ul {
   float:left;
 }
 
-footer {
-  width: 600px;
-  font-family:arial,bold;
+h4, {
+  color: #222;
+  letter-spacing: 0em;
+  float:center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 0 0 0px 0;
+  font: normal 20px serif;
+  margin: 0 0px 0px 0;
+  padding: 5px 0 5px 0;
+  color: #444;
+  text-shadow: 1px 1px 1px #eee;
+}
+
+footer, .site-footer {
+  background: #45484b;
+  color:#000;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 20px;
+  margin:0px 10px  0px 42px;
   text-align: center;
-  background: rgb(197,222,234); /* Old browsers */
-  border-radius: 7px 7px 0px 0px;
-  -moz-border-radius: 7px 7px 0px 0px;
-  -webkit-border: 7px 7px 0px 0px;
-  padding:30px;
-  margin: 0 0 0 0;
+  line-height: 0em;
+  position:middle;
+  height:200px;
+  width:850px;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, #9EA8A8),
+    color-stop(1, #A3A8A8)
+  );
+  background-image: -o-linear-gradient(bottom, #9EA8A8 0%, #A3A8A8 100%);
+  background-image: -moz-linear-gradient(bottom, #9EA8A8 0%, #A3A8A8 100%);
+  background-image: -webkit-linear-gradient(bottom, #9EA8A8 0%, #A3A8A8 100%);
+  background-image: -ms-linear-gradient(bottom, #9EA8A8 0%, #A3A8A8 100%);
+  background-image: linear-gradient(to bottom, #9EA8A8 0%, #A3A8A8 100%);
+  box-shadow: 0 0px 0px #42647F, inset 2px 0 2px 2px #45484b;
 }
 
 .footer a {
-  color: #000;
   text-decoration: none;
 }
 
 .footer a:hover {
-  color: #fff;
   text-decoration: none;
 }
 .footer a, a:hover {
   outline: none;
-  text-decoration: underline;
-  color: #000;
 }
 .separator {
   border-top: 2px solid #222;
   margin: 0 20px 0 0;
+   box-shadow: 0 3px 10px #42647F, inset 0 0px 0 #45484b;
 }

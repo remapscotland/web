@@ -29,9 +29,9 @@ Author:
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/menu.css" />
   </head>
-  <body>
-    <header>
-      <iframe name="header" height="150" width="1500" src="header.html"  style="border: 0;" seamless>
+  <body class="container">
+      <header id="site-header">
+      <iframe  src="header.html"  style="border: 0; width:100%; height:100px;">
       Your browser does not support iframes
       </iframe>
     </header>
@@ -45,15 +45,11 @@ Author:
       <li><a href="panelmap.html">Volunteer</a></li>
     </ul>
     <div class="content">
-      <div id="container">
-        <div class="article">
-          <h3>Latest News</h3>
-          <script src="http://feeds.feedburner.com/RemapScotland?format=sigpro" type="text/javascript" >
-          </script>
-        </div>
-      </div>
+      <div class="article">
+      <h3 style="float:right; padding-right:100px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;">Latest News</h3>
+      <script src="http://feeds.feedburner.com/RemapScotland?format=sigpro"></script>
+     </div>
     </div>
-    <iframe width="550" height="200"  style="border: 0" src="footer.html">
-    </iframe>
   </body>
+  <iframe src="footer.html" style="border:0; width:100%;"/>
 </html>
