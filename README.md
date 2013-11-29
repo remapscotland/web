@@ -1,14 +1,8 @@
-### REMAP Scotland Web
+The codes for http://remapscotland.org.uk &amp; while we upgrade http://remap-scotland.org to include case management and case archive search
 
-Site Repository for http://remapscotland.org.uk &amp; http://remap-scotland.org upgrade 
+REMAP Scotland are a charity who make technical aids for people with disabilities where no commercial solution currently exists, so we aim:
 
-REMAP Scotland are a charity who make technical aids for people with disabilities where no commercial solution currently 
-exists.
-
-### Goals of the Project
-
-Ultimately we want to be able to take on the cases of anyone who might need our help and get the work done as quickly as possible.
-To do this the developers of the site aim to implement an attractive looking, accessible website the following reasons:
+ * To implement a fully accessible application
 
  * To publicise REMAP Scotland
 
@@ -29,33 +23,27 @@ that we design for our users
 
  * To publish helpful information which may help those with disabilities from all over the world benefit from our efforts
 
-### Download instructions 
+## Download instructions 
 
-The instruction if you need to download is [download git](http://git-scm.com/downloads)
+The instruction if you need to download is [download git](http://git-scm.com/downloads). To get the repository on your local machine type the following into a command prompt
 
 ```
 $ git clone https://github.com/remapscotland/web.git
 ```
-
 [main repository can be found at] (http://github.com/remapscotland/web)
 [wip] (http://github.com/remapscotland/wip)
 [wiki pages] (https://github.com/remapscotland/web/wiki/)
 
-### Current Status
+## Current Status
 
-Version 0.0.1
+[Check out the No Nonsense Guide](https://github.com/remapscotland/web/wiki/Keep-Track-of-Progress:-A-No-Nonsense-Guide) to find out how to keep track on GitHub.
 
 [current look](http://remapscotland.org.uk)
 
-### Next Steps
+## [Next Steps](https://github.com/remapscotland/web/wiki/Next-Steps)
 
- 1. Get the work up to standard with the look and its accessibility. (ongoing)
-
- 2. Replace published content on http://remapscotland.org.uk &amp; (nearly there)
-
- 3. redirect http://remap-scotland.org 
-
- 4.Add Wiki page to explain the roles under the 'get involved' heading
+These are defined in the [milestones pages](https://github.com/remapscotland/web/milestones) but there is a summary of how that works in the [Next Steps](https://github.com/remapscotland/web/wiki/Next-Steps)
+wiki page to get started with.
 
 ### Handy Links
 
@@ -63,11 +51,15 @@ Version 0.0.1
 
 ### Authors and Contributors
 
-Magdalen Berns @thisMagpie on GitHub
+Magdalen Berns @thisMagpie on GitHub 
 
-You!
+Rory Davis @RoryDavis on GitHub
 
-### To get involved in the web Project
+John Cullen @JoCu64 on GitHub
+
+Sasha Noel
+
+### [To get involved in the web project](https://github.com/remapscotland/web/wiki/Get-Involved)
 
 We areas we most need help are 
 
@@ -77,6 +69,14 @@ We areas we most need help are
 
  * Publicity
 
-clone the repository and make a pull request
+ * Research
 
-contact thismagpie@live.com
+Let us know you want to get involved by getting in touch and also by making a pull request or Join the following mailing lists
+
+[REMAP-Scotland-Web](https://groups.google.com/forum/#!forum/remap-scotland-web)
+
+Please Join if you would like to contribute by testing, writing articles, design or artwork, but feel free to lurk or just make suggestions for site improvements too!
+
+[REMAP-Scotland-Web-Development](https://groups.google.com/forum/#!forum/remap-scotland-web-development) 
+
+Anyone is welcome to lurk, ask questions or feedback about the work here but for less specific feedback and help/advice on the work please consider joining remap-scotland-web too. 
