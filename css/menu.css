@@ -1,11 +1,12 @@
 ul.menu, ul.menu * {
   margin: 0px;
   padding: 0px;
-  float:left;
-  border-radius:0 0 7px 7px;
-  -moz-border-radius: 0 0 7px 7px;
-  -webkit-border: 0 0 7px 7px;
-  box-shadow: 0 3px 10px #42647F, inset 0 0px 0 #fff
+  float:right;
+  border-radius:0 0 4px 4px;
+  -moz-border-radius: 0 0 4px 4px;
+  -webkit-border: 0 0 4px 4px;
+  box-shadow: 0 3px 4px #0047AB, inset 4px 0px 0 #000
+  
 }
 
 ul.menu {
@@ -66,7 +67,7 @@ ul#nav li.current a {
 }
 
 ul#nav ul {
-  background: #99bbFF;
+  background: #0047AB;
   float: left;
 }
 
@@ -74,20 +75,33 @@ ul#nav li a {
   padding: 0px 10px;
   font-family: helvetica;
   text-decoration: none;
-  color: #111;
-  background: #99bbFF;
+  color: #fff;
+  background:#0047AB;
   margin-right: 0px;
-  border-radius: 0 0 7px 7px;
-  -moz-border-radius: 0 0 7px 7px ;
+  border-radius: 0 0 5px 5px;
+  -moz-border-radius: 0 0 5px 4px ;
   -webkit-border: 0 0 7px 7px;
 }
 
 ul#nav li a:hover, ul#nav li a:focus {
-  color: #FFF;
+  color: #93CCEA;
 }
 ul#nav li ul li a {
   margin-right: 0px;
   border-radius: 0px 0px 0 0;
   -moz-border-radius: 0 0 0 0;
   -webkit-border: 0 0 0 0;
+}
+a, a:hover {
+outline : none;
+text-decoration : none;
+color : #444;
+}
+a:hover {
+  text-decoration : none;
+  color : #000;
+}
+ul {
+  margin : 2px 0 10px 10px;
+  float : left;
 }
