@@ -53,7 +53,7 @@ wiki page to get started with.
 
 Magdalen Berns @thisMagpie on GitHub 
 
-Rory Davis @RoryDavis on GitHub
+Rory Davies @RoryDavies on GitHub
 
 John Cullen @JoCu64 on GitHub
 
@@ -71,7 +71,7 @@ We areas we most need help are
 
  * Research
 
-Let us know you want to get involved by getting in touch and also by making a pull request or Join the following mailing lists
+Let us know you want to get involved by getting in touch and also by making a pull request or Join the following Google mailing lists (they are not part of github, you may need a gmail email address to join them) :
 
 [REMAP-Scotland-Web](https://groups.google.com/forum/#!forum/remap-scotland-web)
 
