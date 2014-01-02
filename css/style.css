@@ -22,35 +22,43 @@ section.content {
   float:none;
   font-family : Calibri, Helvetica, serif;
   border : #000 solid 0;
-  background : #c6c6c6;
-  padding-left :0px;
+  background : #e6e6ef;
   box-shadow : 0 1px 10px #000, 0 1px 0 #000 inset;
 }
 
-.site-header, h1 {
+.site-header{
   background-color:#0047AB;
-  font-size:22px;
-  font-weight: 500;
   width:100%;
   height:100px;
-  color:#ffffff;
   padding-top:10px;
-  font-family : "Helvetica Neue", Helvetica, Arial, sans-serif;
-  border-radius : 0px 0px 0px 0px;
+  border-radius : 1px 1px 1px 0px;
   box-shadow: 0 3px 4px #fff, inset 3px 0px 0px #0047AB;
 }
 
-h2{
-  padding: 20px 0px 10px 0px;
-  background-color:#0047AB;
-  font-size:40px;
-  font-weight: bold;
-  margin-top: 8px;
-  height: 80px;
+h1 {
+  font-size:28px;
   color:#ffffff;
-  font-family : Calibri, Helvetica, serif;
-  border-radius : 0px 0px 10px 0px;
-  box-shadow: 0 3px 4px #0047AB, inset 10px 0px 10px #000
+  padding: 0px 10px 10px 20px;
+  font-weight: 500;
+  text-shadow:1px;
+  box-shadow: 0 3px 4px #000, inset 3px 0px 0px #0047AB;
+  font-family : "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h2{
+  padding: 20px 20px 10px 10px;
+  background-color:#0047AB;
+  width:200px;
+  font-size:20px;
+  float:left;
+  padding:0px 0px;
+  margin-left: 2px;
+  margin-bottom: 2px;
+  padding-left:8px;
+  padding-right:8px;
+  color:#f6f6f6;
+  font-family : Calibri, Helvetica, Arial;
+  border-radius : 2px 2px 2px 2px;
+  box-shadow: 0 3px 4px #0047AB, inset 0px 3px 3px #eee;
 }
 
 h3 {
@@ -61,6 +69,7 @@ h3 {
   font-family : "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin : 0 0 0 0;
   color : #444;
+    font-size:24px;
   text-shadow : 1px 1px 1px #eee;
 }
 
@@ -77,17 +86,16 @@ h4 {
 }
 
 h5 {
-  color : #fff;
+  color : #eee;
   letter-spacing : 0;
   font-family : "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size:20px;
+  font-size:18px;
   padding : 0px;
 }
 div.article {
-  width:650px;
-   border : #000 solid 2px;
-  margin : 0px 200px 0px 200px;
-  padding : 16px 20px 12px 10px;
+  border : #000 solid 2px;
+  margin : 0px 20% 0px 20%;
+  padding : 20px 20px 20px 20px;
   text-align : justify;
   font-family : arial;
   background-color: #efefef;
@@ -95,13 +103,12 @@ div.article {
 }
 
 div.site-footer {
-  background : #f6f6f6;
-  color : #000;
+  background : #a0a0a0;
+  color : #fff;
   font-family : "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size : 16px;
   text-align:center;
-  height : 100px;
-  border : #070707 solid 1px;
+  border : #070707 solid 2px;
 }
 
 .footer a {
