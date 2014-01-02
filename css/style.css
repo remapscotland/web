@@ -1,64 +1,55 @@
 body {
-  margin :0px;
+  margin : 0;
   font-family : "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color:#707070;
+  background-color : #f6f6f6;
 }
-
 div.container {
-  width:100%;
+  width : 100%;
 }
-
-div.widget{
-  float:left;
-  padding-top:0px;
-  height:0px;
+div.widget {
+  float : left;
+  position:fixed;
+  padding-top : 0;
+  height : 0;
 }
-
-#widget.sidebar-right{
-  float:right;
+.widget.sidebar-right {
+  float : right;
+  width:20%;
+  height:200px;
 }
-
 section.content {
-  float:none;
+  float : none;
   font-family : Calibri, Helvetica, serif;
   border : #000 solid 0;
   background : #e6e6ef;
   box-shadow : 0 1px 10px #000, 0 1px 0 #000 inset;
 }
-
-.site-header{
-  background-color:#0047AB;
-  width:100%;
-  height:100px;
-  padding-top:10px;
-  border-radius : 1px 1px 1px 0px;
-  box-shadow: 0 3px 4px #fff, inset 3px 0px 0px #0047AB;
+.site-header {
+  background-color : #0047AB;
+  width : 100%;
+  height : 100px;
+  padding-top : 10px;
+  border-radius : 1px 1px 1px 0;
+  box-shadow : 0 3px 4px #fff, 3px 0 0 #0047AB inset;
 }
-
 h1 {
-  font-size:28px;
-  color:#ffffff;
-  padding: 0px 10px 10px 20px;
-  font-weight: 500;
-  text-shadow:1px;
-  box-shadow: 0 3px 4px #000, inset 3px 0px 0px #0047AB;
+  font-size : 1.4em;
+  color : #ffffff;
+  padding : 0 10px 10px 20px;
+  font-weight : 500;
+  box-shadow : 0 3px 4px #000, 3px 0 0 #0047AB inset;
   font-family : "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-h2{
-  padding: 20px 20px 10px 10px;
-  background-color:#0047AB;
-  width:200px;
-  font-size:20px;
-  float:left;
-  padding:0px 0px;
-  margin-left: 2px;
-  margin-bottom: 2px;
-  padding-left:8px;
-  padding-right:8px;
-  color:#f6f6f6;
-  font-family : Calibri, Helvetica, Arial;
+
+h2 {
+
+  font-size : 18px;
+  margin : 0px 100px;
+  color : #f6f6f6;
+  background-color : #0047AB;
+  font-family : "Helvetica Neue", Helvetica, Arial, sans-serif;
   border-radius : 2px 2px 2px 2px;
-  box-shadow: 0 3px 4px #0047AB, inset 0px 3px 3px #eee;
+  box-shadow : 0 3px 4px #000, 3px 0 0 #0047AB inset;
 }
 
 h3 {
@@ -69,48 +60,51 @@ h3 {
   font-family : "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin : 0 0 0 0;
   color : #444;
-    font-size:24px;
+  font-size : 1.2em;
   text-shadow : 1px 1px 1px #eee;
 }
-
 h4 {
   color : #222;
   letter-spacing : 0;
   font-family : "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size:30px;
-  padding : 0px;
+  font-size : 30px;
+  padding : 0;
   font : normal normal 20px serif;
   margin : 0 0 0 0;
   color : #444;
   text-shadow : 1px 1px 1px #fff;
 }
-
 h5 {
   color : #eee;
   letter-spacing : 0;
   font-family : "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size:18px;
-  padding : 0px;
+  font-size : 1.3em;
+  padding : 0;
 }
 div.article {
-  border : #000 solid 2px;
-  margin : 0px 20% 0px 20%;
-  padding : 20px 20px 20px 20px;
+  position:;
+  border : #000 solid 0px;
+  margin : 0 20% 0 20%;
+  padding : 5% 5% 10% 5%;
   text-align : justify;
   font-family : arial;
-  background-color: #efefef;
+  background-color : #efefef;
   box-shadow : 0 0 10px #a7a7a7, 0 1px 3px #000 inset;
+  font-family : "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
+.main p{
+  font-size:1.0em;
+  text-align : justify;
+}
 div.site-footer {
+ float:bottom;
   background : #a0a0a0;
   color : #fff;
   font-family : "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size : 16px;
-  text-align:center;
-  border : #070707 solid 2px;
+  font-size : 1.0em;
+  text-align : center;
+  border : #050505 solid 2px;
 }
-
 .footer a {
   text-decoration : none;
 }
@@ -125,11 +119,3 @@ div.site-footer {
   margin : 0 80px 0 0;
   box-shadow : 0 3px 10px #42647F, 0 0 0 #45484b inset;
 }
-
-img.case-study-img {
-  float : right;
-  margin : 10px;
-  padding : 10px;
-  box-shadow : 0 3px 10px #42647F, 0 0 0 #45484b inset;
-  caption-side: "Photograph of the talented violinist practising with her new custom saddle and harness";
-
