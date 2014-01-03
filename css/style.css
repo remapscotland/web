@@ -35,21 +35,19 @@ section.content {
 h1 {
   font-size : 1.4em;
   color : #ffffff;
-  padding : 0 10px 10px 20px;
-  font-weight : 500;
-  box-shadow : 0 3px 4px #000, 3px 0 0 #0047AB inset;
+  padding : 0 10px 10px 2.0em;
+  box-shadow : 0 3px 4px #fff, 3px 0 0 #0047AB inset;
   font-family : "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h2 {
-
-  font-size : 18px;
-  margin : 0px 100px;
+  font-size : 1.6em;
   color : #f6f6f6;
+  font-weight:500;
   background-color : #0047AB;
-  font-family : "Helvetica Neue", Helvetica, Arial, sans-serif;
   border-radius : 2px 2px 2px 2px;
-  box-shadow : 0 3px 4px #000, 3px 0 0 #0047AB inset;
+  box-shadow : 0 3px 4px #fff, 3px 0 0 #0047AB inset;
+  font-family : Helvetica, Arial, sans-serif;
 }
 
 h3 {
