@@ -104,6 +104,58 @@ Author:
       We only use this information for statistical analysis purposes and we do NOT
       currently consent to share the information we collect using google analytics
       with other google services or any other 3rd party.
+      
+<table style="background:#f6f6f6; border: #ddd; 0.3em">
+  <tr>
+    <th>Cookie Name</th>
+    <th width="180px">Default Expiration Time</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><code>__utma</code></td>
+    <td>2 years from set/update</td>
+    <td>Used to distinguish users and sessions. The cookie is created
+        when the javascript library executes and no existing
+        __utma cookies exists. The cookie is updated every time data is
+        sent to Google Analytics.</td>
+  </tr>
+  <tr>
+    <td><code>__utmb</code></td>
+    <td>30 mins from set/update</td>
+    <td>Used to determine new sessions/visits. The cookie is created
+        when the javascript library executes and no existing
+        __utmb cookies exists. The cookie is updated every time data is
+        sent to Google Analytics.</td>
+  </tr>
+  <tr>
+    <td><code>__utmc</code></td>
+    <td>End of browser session</td>
+    <td>Not used in ga.js. Set for interoperability with urchin.js.
+        Historically, this cookie operated in conjunction
+        with the <code>__utmb</code> cookie to determine whether
+        the user was in a new session/visit.</td>
+  </tr>
+  <tr>
+    <td><code>__utmz</code></td>
+    <td>6 months from set/update</td>
+    <td>Stores the traffic source or campaign that explains how
+        the user reached your site. The cookie is created
+        when the javascript library executes and is updated every
+        time data is sent to Google Analytics.</td>
+  </tr>
+  <tr>
+    <td><code>__utmv</code></td>
+    <td>2 years from set/update</td>
+    <td>Used to store visitor-level custom variable data.
+        This cookie is created when a developer uses the
+        <a href="/analytics/devguides/collection/gajs/methods/gaJSApiBasicConfiguration#_gat.GA_Tracker_._setCustomVar">
+          <code>_setCustomVar</code></a> method with
+        a visitor level custom variable. This cookie was
+        also used for the deprecated <code>_setVar</code>
+        method. The cookie is updated every time data is
+        sent to Google Analytics.</td>
+  </tr>
+</table>
       </p>
       <h4>Your responsibility</h4>
       <p>
