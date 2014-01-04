@@ -48,6 +48,7 @@ h2 {
   border-radius : 2px 2px 2px 2px;
   box-shadow : 0 3px 4px #fff, 3px 0 0 #0047AB inset;
   font-family : Helvetica, Arial, sans-serif;
+  margin-top:-0.5em;
 }
 
 h3 {
