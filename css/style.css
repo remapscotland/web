@@ -21,7 +21,7 @@ section.content {
   float : none;
   font-family : Calibri, Helvetica, serif;
   border : #000 solid 0;
-  background : #e6e6ef;
+  background: f6ff6f6;
   box-shadow : 0 1px 10px #000, 0 1px 0 #000 inset;
 }
 .site-header {
@@ -100,9 +100,13 @@ div.site-footer {
   background : #a0a0a0;
   color : #fff;
   font-family : "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size : 1.0em;
+  
+ min-height: 100%;
+ font-size : 1.0em;
   text-align : center;
-  border : #050505 solid 2px;
+  
+ min-height: 100%;
+ border : #050505 solid 2px;
 }
 .footer a {
   text-decoration : none;
