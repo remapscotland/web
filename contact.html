@@ -1,4 +1,4 @@
-<!DOCTYPE html lang="en">
+<!DOCTYPE html>
 <!--
     Copyright (C) 2013 REMAP Scotland
 
@@ -18,15 +18,17 @@
 Author:
         Magdalen Berns thismagpie@live.com
 -->
-    <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Select the location of the panel you wish to contact and your message will go directly to them">
-    <meta name="keywords" content="technical aid, disability, remap, scotland. charity">
-    <title>Contact REMAP Scotland</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/menu.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<html lang="en_GB">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width" initial-scale=1.0>
+    <meta name="description" content="We are a Scottish charity offering a dedicated
+                service to most of Scotland through our 14 area panels." />
+    <meta name="keywords" content="technical aid, disability, remap, scotland. charity" />
+    <title>REMAP Scotland</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/menu.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
     <script src="js/cookieControl-6.2.min.js" type="text/javascript"></script>
     <script type="text/javascript">//<![CDATA[
       cookieControl({
@@ -35,8 +37,8 @@ Author:
               intro: '<p>Some of these cookies are essential to make our site work and others help us to improve by giving us some insight into how the site is being used.</p>',
               full:'<p>These cookies are set when you submit a form, login or interact with the site by doing something that goes beyond clicking some simple links.</p><p>We also use some non-essential cookies to anonymously track visitors or enhance your experience of this site. If you\'re not happy with this, we won\'t set these cookies but some nice features on the site may be unavailable.</p><p>To control third party cookies, you can also <a class="ccc-settings" href="browser-settings" target="_blank">adjust your browser settings.</a></p><p>By using our site you accept the terms of our <a href="http://remapscotland.org.uk/privacy.html">Privacy Policy</a>.</p>'
           },
-          position:CookieControl.POS_LEFT,
-          style:CookieControl.STYLE_TRIANGLE,
+          position:CookieControl.POS_TOP,
+          style:CookieControl.STYLE_BANNER,
           theme:CookieControl.THEME_DARK, // light or dark
           startOpen:true,
           autoHide:7000,
@@ -58,56 +60,51 @@ Author:
             });
           }
        //]]>
-    </script>
-    
-    </head>
-    <body class="container">
-        <div class="site-header" id="header" role="banner">
-            <h1>REMAP Scotland</h1>
-            <h2>Contact</h2>
+</script>
+  </head>
+<!-- Layout -->
+    <div id="wrapper">
+        <div id="topSkip">
+		<ul>
+		<li><a href="#content">Skip to content</a></li>
+		</ul>	
+		</div>
+          <body class="container">
+        <div class="site-header" role="banner">
+            <h1> REMAP Scotland</h1>
+            <h2>Panel Member Map</h2>
         </div>
-    <nav role="navigation">
-        <ul class="menu" id="nav">
-            <li><a href="about.html">About</a>
-            </li>
-            <li><a href="casestudies.html">Case Studies</a>
-            </li>
-            <li><a href="contact.html">Contact</a>
-            </li>
-            <li><a href="donate.html">Donate</a>
-            </li>
-            <li><a href="volunteering.html">Volunteer</a></li>
-        </ul>
-    </nav>
-        <div class="widget" id="sidebar-right" role="complementary">
-            <a href="https://facebook.com/remapscotland">
-            <img src="images/facebook.png" alt="Connect with REMAP scotland on facebook">
-            </a>
-            <a href="https://twitter.com/remapscotland">
-            <img src="images/twitter.png" alt="Follow REMAP Scotland on Twitter">
-            </a>
-        </div>
-        <section class="content">
-            <div class="article" id="main">
-                <p>Please note this form is still under development and is not yet linked to an email address.</p>
-                <form class="form">
-                    <div class="form-group"><label for="inputEmail" class="col-lg-4 control-label">Email</label>
-                        <div class="col-lg-10"><input type="email" class="form-control" id="inputEmail">
-                        </div>
-                    </div>
-                    <!-- Radio buttons -->
-                    <div class="radio"><label><input type="radio" name="optionsRadios" id="optionsLothian" value="Lothian"> Lothian</label></div>
-                    <div class="radio"><label><input type="radio" name="optionsRadios" id="optionsOther" value="other"> Other</label></div>
-                    <br>
-                    <div class="message"><label for="form-control" class="col-lg-4 control-label">Message</label></div>
-                    <textarea class="form-control">
-                    </textarea>
-                    <div class="col-lg-offset-4 col-lg-10"><!--does nothing yet -->
-                    <button type="submit" class="btn btn-default">Send</button></div>
-                </form>
+    <ul class="menu" id="nav" role="navigation">
+      <li><a href="about.html">About</a></li>
+      <li><a href="casestudies.html">Case Studies</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="donate.html">Donate</a></li>
+      <li><a href="volunteering.html">Volunteer</a></li>
+    </ul>
+    <div class="widget" id="sidebar-right">
+      <a href="https://facebook.com/remapscotland">
+      <img src="images/facebook.png" alt="Connect with REMAP scotland on facebook"/></a>
+      <a href="https://twitter.com/remapscotland"> <img src="images/twitter.png" alt=Follow  REMAP scotland on twitter!/></a>
+    </div>
+    <section class="content" role="main">
+    <div class="article">
+      </br>
+      </br>
+      <p>
+      Clicking on a location will reveal the member's telephone number and email address.</p>
+      <br/>
+      <br/>
+      If you are having trouble with this map, please try viewing on
+      <a href="https://maps.google.com/maps/ms?hl=en&ie=UTF8&msa=0&msid=111055985929872203010.0004670ed23d54d88b0b1&ll=56.872996,
+               -3.80127&spn=3.933339,9.437256&source=embed">
+        google maps </a> instead.
+      </p>
+      <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?hl=en&amp;ie=UTF8&amp;msa=0&amp;msid=200793566584453292969.0004670ed23d54d88b0b1&amp;source=embed&amp;ll=56.872996,-3.80127&amp;spn=3.933339,9.437256&amp;t=h&amp;output=embed"></iframe><br/>
+      <small>View <a href="https://maps.google.com/maps/ms?hl=en&amp;ie=UTF8&amp;msa=0&amp;msid=200793566584453292969.0004670ed23d54d88b0b1&amp;source=embed&amp;ll=56.872996,-3.80127&amp;spn=3.933339,9.437256&amp;t=h" style="color:#0000FF;text-align:left">
+      REMAP (Scotland)</a> in a larger map</small>
       </div>
     </section>
-    <div class="site-footer" id="footer" role="contentinfo">
+    <div class="site-footer">
        <p>
        Unless otherwise stated all content is copyright &copy;
        <a href="http://www.remapscotland.org.uk">REMAP Scotland</a>

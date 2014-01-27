@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE html>
 <!--
     Copyright (C) 2013 REMAP Scotland
 
@@ -18,7 +18,7 @@
 Author:
         Magdalen Berns thismagpie@live.com
 -->
-<html lang="en">
+<html lang="en_GB">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width" initial-scale=1.0>
@@ -28,6 +28,7 @@ Author:
     <title>REMAP Scotland</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/menu.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
     <script src="js/cookieControl-6.2.min.js" type="text/javascript"></script>
     <script type="text/javascript">//<![CDATA[
       cookieControl({
@@ -36,8 +37,8 @@ Author:
               intro: '<p>Some of these cookies are essential to make our site work and others help us to improve by giving us some insight into how the site is being used.</p>',
               full:'<p>These cookies are set when you submit a form, login or interact with the site by doing something that goes beyond clicking some simple links.</p><p>We also use some non-essential cookies to anonymously track visitors or enhance your experience of this site. If you\'re not happy with this, we won\'t set these cookies but some nice features on the site may be unavailable.</p><p>To control third party cookies, you can also <a class="ccc-settings" href="browser-settings" target="_blank">adjust your browser settings.</a></p><p>By using our site you accept the terms of our <a href="http://remapscotland.org.uk/privacy.html">Privacy Policy</a>.</p>'
           },
-          position:CookieControl.POS_LEFT,
-          style:CookieControl.STYLE_TRIANGLE,
+          position:CookieControl.POS_TOP,
+          style:CookieControl.STYLE_BANNER,
           theme:CookieControl.THEME_DARK, // light or dark
           startOpen:true,
           autoHide:7000,
@@ -59,14 +60,21 @@ Author:
             });
           }
        //]]>
-    </script>
+</script>
   </head>
-    <body class="container">
-        <div class="site-header">
+<!-- Layout -->
+    <div id="wrapper">
+        <div id="topSkip">
+		<ul>
+		<li><a href="#content">Skip to content</a></li>
+		</ul>	
+		</div>
+          <body class="container">
+        <div class="site-header" role="banner">
             <h1> REMAP Scotland</h1>
             <h2>Panel Member Map</h2>
         </div>
-    <ul class="menu" id="nav">
+    <ul class="menu" id="nav" role="navigation">
       <li><a href="about.html">About</a></li>
       <li><a href="casestudies.html">Case Studies</a></li>
       <li><a href="contact.html">Contact</a></li>
@@ -74,10 +82,11 @@ Author:
       <li><a href="volunteering.html">Volunteer</a></li>
     </ul>
     <div class="widget" id="sidebar-right">
-      <a href="https://facebook.com/remapscotland"> <img src="images/facebook.png" alt="Connect with REMAP scotland on facebook"/></a>
+      <a href="https://facebook.com/remapscotland">
+      <img src="images/facebook.png" alt="Connect with REMAP scotland on facebook"/></a>
       <a href="https://twitter.com/remapscotland"> <img src="images/twitter.png" alt=Follow  REMAP scotland on twitter!/></a>
     </div>
-    <section class="content">
+    <section class="content" role="main">
     <div class="article">
       </br>
       </br>
@@ -86,7 +95,8 @@ Author:
       <br/>
       <br/>
       If you are having trouble with this map, please try viewing on
-      <a href="https://maps.google.com/maps/ms?hl=en&ie=UTF8&msa=0&msid=111055985929872203010.0004670ed23d54d88b0b1&ll=56.872996,-3.80127&spn=3.933339,9.437256&source=embed">
+      <a href="https://maps.google.com/maps/ms?hl=en&ie=UTF8&msa=0&msid=111055985929872203010.0004670ed23d54d88b0b1&ll=56.872996,
+               -3.80127&spn=3.933339,9.437256&source=embed">
         google maps </a> instead.
       </p>
       <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?hl=en&amp;ie=UTF8&amp;msa=0&amp;msid=200793566584453292969.0004670ed23d54d88b0b1&amp;source=embed&amp;ll=56.872996,-3.80127&amp;spn=3.933339,9.437256&amp;t=h&amp;output=embed"></iframe><br/>
